@@ -1,0 +1,32 @@
+.nav{
+    display: absolute;
+    position: sticky;
+    top: 0;
+    width:100%;
+}
+.container{
+    display: flex;
+    top: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0rem 1.5rem;
+    padding-top: 1rem;
+    font-family: 'PPNeueMontreal';
+    /* border: 1px solid red; */
+}
+.nav_name{
+    font-weight: 800;
+    text-align: start;
+}
+.nav_title1{
+    padding-top: .5rem;
+    font-weight: 800;
+    text-align: center;
+    max-width: 19rem;
+}
+.nav_title2{
+    padding-top: .5rem;
+    font-weight: 800;
+    text-align: end;
+    max-width: 19rem;
+}

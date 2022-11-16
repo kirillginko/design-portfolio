@@ -2,7 +2,6 @@ import { useRouter } from 'next/router';
 import type { AppProps } from 'next/app';
 import { useRef } from 'react';
 import { LocomotiveScrollProvider as RLSProvider } from 'react-locomotive-scroll';
-
 import 'locomotive-scroll/dist/locomotive-scroll.css';
 import '../styles/globals.css';
 
@@ -27,7 +26,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       containerRef={containerRef}
     >
       <div data-scroll-container ref={containerRef}>
-        <Component {...pageProps} />;
+        <Component {...pageProps} />
       </div>
     </RLSProvider>
   );
