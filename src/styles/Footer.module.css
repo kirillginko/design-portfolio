@@ -4,6 +4,7 @@
     grid-template-rows: repeat(5, 1fr);
     margin: 0rem 1.5rem;
     margin-top: 2rem;
+    padding-top: 2rem;
 }
 .span{
     grid-row-start: 1;
@@ -27,7 +28,7 @@
     grid-row-start: 1;
     grid-row-end: 3;
     grid-column-start: 7;
-    grid-column-end: 8;
+    grid-column-end: 9;
     font-family: 'PPNeueMontreal';
     font-size: 2rem;
     font-weight: 800;

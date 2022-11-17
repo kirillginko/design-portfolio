@@ -19,6 +19,7 @@ export default function About() {
         <h1 className={styles.location_title}>Based In NYC</h1>
         </div>
           <div className={styles.description_inner}  data-scroll data-scroll-section>
+          <span className={styles.span}>02/</span>
           <div className={styles.description_left}><h2 className={styles.title}>A journey of curiosity and exploration.</h2></div>
           <div className={styles.description_right}><h2 className={styles.title}>I'm a creative designer and developer with experience in building products and innovative digital experiences. I've helped brands build innovative experiences and create user-friendly design experiences.</h2></div>
           <div className={styles.description_lowerright}><h2 className={styles.title}>My multi-disciplinary background brings a diverse set of skills to create successful branding and design identity to companies. I specialize in ux/ui, graphic design, and front-end development.</h2></div>
