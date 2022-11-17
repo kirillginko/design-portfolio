@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { useLocomotiveScroll } from 'react-locomotive-scroll';
 import Nav from "../components/Nav"
 import About from "../components/About"
+import Footer from "../components/Footer"
 import styles from '../styles/Home.module.css';
 
 const Home: NextPage = () => {
@@ -18,6 +19,7 @@ const Home: NextPage = () => {
       </Head>
       <Nav/>
       <About/>
+      <Footer/>
       </div>
   );
 };
