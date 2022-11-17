@@ -1,12 +1,5 @@
-.nav{
-    display: absolute;
-    position: sticky;
-    top: 0;
-    width:100%;
-}
 .container{
     display: flex;
-    top: 0;
     flex-direction: row;
     justify-content: space-between;
     margin: 0rem 1.5rem;

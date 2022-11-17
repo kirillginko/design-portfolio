@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         <meta name="description" content="Kirill Ginko Digital Designer based in NYC" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Nav/>
+      <Nav />
       <About/>
       <Footer/>
       </div>
