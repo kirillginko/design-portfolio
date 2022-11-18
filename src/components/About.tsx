@@ -13,7 +13,6 @@ export default function About() {
       </div>
         </div>
         <div className={styles.image_container} data-scroll data-scroll-section >
-          <img  className={styles.image} src="https://res.cloudinary.com/dtps5ugbf/image/upload/v1657828279/gradient_3_s9z3f6.png"data-scroll />
       </div>
       <div className={styles.location_container} data-scroll data-scroll-section>
         <h1 className={styles.location_title}>Based In NYC</h1>
