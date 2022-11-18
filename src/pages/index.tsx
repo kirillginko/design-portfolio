@@ -21,9 +21,9 @@ const Home: NextPage = () => {
       </Head>
       <Nav />
       <About/>
-      <Projects/>
+      {/* <Projects/>
       <Awards/>
-      <Footer/>
+      <Footer/> */}
       </div>
   );
 };

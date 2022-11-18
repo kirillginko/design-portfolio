@@ -1,180 +1,113 @@
 .container{
     display: grid;
-    grid-template-columns: repeat(14, 1fr);
-    height: min-content;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
     margin: 0rem 1.5rem;
-    margin-top: 20rem;
-    padding-top: 2rem;
+    margin-top: 15rem;
+    overflow: hidden;
 }
 .span{
-    grid-row-start: 1;
-    grid-row-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 2;
     font-size: 2rem;
-    font-weight: 200;
+    font-weight: 100;
 }
-.about_container{
-    grid-row-start: 1;
-    grid-row-end: 10;
-    grid-column-start: 4;
-    grid-column-end: 10;
-    padding-bottom: 2rem;
-}
-.about_title{
-    font-family: 'PPNeueMontreal';
-    font-weight: 800;
-    font-size: 10rem;
-    line-height: 10rem;
-    text-transform: uppercase;
-}
-.image_container{
-    display: grid;
-    grid-template-columns: repeat(14, 1fr);
-    margin: 0rem 1.5rem;
-    padding-top: 2rem;
-}
-.image{
-    grid-row-start: 4;
-    grid-row-end: 14;
-    grid-column-start: 4;
-    grid-column-end: 8;
-    height: 30vw;  
-}
-.location_container{
-    display: grid;
-    grid-template-columns: repeat(14, 1fr);
-    grid-template-rows: repeat(14, 1fr);
-    margin: 0rem 1.5rem;
-    padding-top: 2rem;
-    /* border: 1px solid blue; */
-}
-.location_title{
-    grid-row-start: 4;
-    grid-row-end: 14;
-    grid-column-start: 4;
-    grid-column-end: 8;
-    font-family: 'PPNeueMontreal';
-    font-size: 5rem;
-    font-weight: 800;
-    text-transform: uppercase;
-    /* border: 1px solid red; */
-}
-.description_inner{
-display: grid;
-grid-template-columns: repeat(14, 1fr);
-grid-template-rows: repeat(14, 1fr);
-/* grid-gap: 2rem; */
-margin: 0rem 1.5rem;
-margin-top: 5rem;
-padding-top: 2rem;
-}
-.description_left{
-    grid-row-start: 1;
-    grid-row-end: 14;
-    grid-column-start: 4;
-    grid-column-end: 7;
-    font-size: 1rem;
-}
-.description_right{
-    grid-row-start: 1;
-    grid-row-end: 14;
-    grid-column-start: 9;
-    grid-column-end: 12;
-    font-size: 1rem;
-    line-height: 2rem;
-}
-.description_lowerright{
-    grid-row-start: 9;
-    grid-row-end: 14;
-    grid-column-start: 9;
-    grid-column-end: 12;
-    font-size: 1rem;
-    line-height: 2rem;
+.title_container{
+    grid-row-start: 2;
+    grid-row-end: 13;
+    grid-column-start: 3;
+    grid-column-end: 13;
 
 }
 .title{
-    font-size: 2rem;
+    font-size: calc(15vmax * 9 / 16);
     font-family: 'PPNeueMontreal';
-    font-weight: 800;
+    text-transform: uppercase;
+    line-height: calc(15vmax * 9 / 16);
 }
 @media (max-width: 900px) {
     .container{
-        margin-top: 15rem;
-    }
-    .about_container{
-        grid-row-start: 0;
-        grid-row-end: 15;
-        grid-column-start: 1;
-        grid-column-end: 15;   
-    }
-    .about_title{
-        font-size: calc(17vmax * 9 / 16);
-        margin-top: 6rem;
-        text-transform: uppercase;
-        line-height: 1rem;
-    }
-    .image_container{
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(10, 1fr);
         margin: 0rem 1.5rem;
-        padding-top: 2rem;
+        margin-top: 10rem;
+        overflow: hidden;
+    }
+    .title_container{
+        grid-row-start: 4;
+        grid-row-end: 10;
+        grid-column-start: 1;
+        grid-column-end: 13;
         border: 1px solid red;
     }
-    .image{
-        grid-row-start: 1;
-        grid-row-end: 2;
-        grid-column-start: 1;
-        grid-column-end: 2;
-        height: 90vw;  
+    .title{
+        font-size: calc(15vmax * 9 / 16);
+        font-family: 'PPNeueMontreal';
+        text-transform: uppercase;
+        font-weight: 800;
     }
-    .location_container{
+}
+
+.img_container{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    margin: 0rem 1.5rem;
+}
+.img{
+    position: relative;
+    grid-row-start: 1;
+    grid-row-end: 13;
+    grid-column-start: 3;
+    grid-column-end: 12;
+    width: calc(50vmax * 9 / 16);  
+}
+
+@media (max-width: 900px) {
+    .img_container{
+        position: relative;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, 1fr);
         margin: 0rem 1.5rem;
-        padding-top: 2rem;
-        /* border: 1px solid blue; */
     }
-    .location_title{
+    .img{
         grid-row-start: 1;
-        grid-row-end: 2;
+        grid-row-end: 1;
         grid-column-start: 1;
-        grid-column-end: 2;
-        font-family: 'PPNeueMontreal';
-        font-size: calc(25vmax * 9 / 16);
-        font-weight: 800;
-        text-transform: uppercase;
-        /* border: 1px solid red; */
+        grid-column-end: 1;
+        width: 100%;  
     }
-    .description_inner{
+}
+.self_container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    margin: 0rem 1.5rem;
+}
+.self_img{
+    grid-row-start: 1;
+    grid-row-end: 12;
+    grid-column-start: 3;
+    grid-column-end: 12;
+    width: calc(50vmax * 9 / 16);  
+}
+@media (max-width: 900px) {
+    .self_container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(10, 1fr);
-
-        }
-        .description_left{
-            grid-row-start: 2;
-            grid-row-end: 3;
-            grid-column-start: 1;
-            grid-column-end: 10;
-            font-size: 1rem;
-        }
-        .description_right{
-            grid-row-start: 4;
-            grid-row-end: 6;
-            grid-column-start: 1;
-            grid-column-end: 10;
-            font-size: 1rem;
-            line-height: 2rem;
-        }
-        .description_lowerright{
-            grid-row-start: 7;
-            grid-row-end: 10;
-            grid-column-start: 1;
-            grid-column-end: 10;
-            font-size: 1rem;
-            line-height: 2rem;
-        
-        }
+        grid-template-rows: repeat(1, 1fr);
+        margin: 0rem 1.5rem;
     }
+    .self_img{
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        width: 100%;  
+    }   
+}
