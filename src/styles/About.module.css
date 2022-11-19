@@ -41,7 +41,6 @@
         grid-row-end: 10;
         grid-column-start: 1;
         grid-column-end: 13;
-        border: 1px solid red;
     }
     .title{
         font-size: calc(15vmax * 9 / 16);
@@ -110,4 +109,78 @@
         grid-column-end: 1;
         width: 100%;  
     }   
+}
+.about_container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    margin: 0rem 1.5rem; 
+}
+.about_left{
+    font-size: calc(3vmax * 9 / 16);
+    font-family: 'PPNeueMontreal';
+    font-weight: 100;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    padding-top: 2rem;   
+}
+.about_right{
+    font-size: calc(3vmax * 9 / 16);
+    font-family: 'PPNeueMontreal';
+    font-weight: 100;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 8;
+    grid-column-end: 10; 
+    padding-top: 2rem;    
+}
+.about_lower_right{
+    font-size: calc(3vmax * 9 / 16);
+    font-family: 'PPNeueMontreal';
+    font-weight: 100;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 8;
+    grid-column-end: 10; 
+    padding-top: 2rem;   
+    }
+@media only screen and (max-width: 900px) {
+    .about_container{
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(10, 1fr);
+        margin: 0rem 1.5rem; 
+    }
+    .about_left{
+        font-size: calc(7vmax * 9 / 16);
+        font-family: 'PPNeueMontreal';
+        font-weight: 100;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 13;
+        padding-top: 4rem;  
+    }
+    .about_right{
+        font-size: calc(7vmax * 9 / 16);
+        font-family: 'PPNeueMontreal';
+        font-weight: 100;
+        grid-row-start: 2;
+        grid-row-end: 6;
+        grid-column-start: 1;
+        grid-column-end: 13;
+        padding-top: 4rem;     
+    }
+    .about_lower_right{
+        font-size: calc(7vmax * 9 / 16);
+        font-family: 'PPNeueMontreal';
+        font-weight: 100;
+        grid-row-start: 6;
+        grid-row-end: 10;
+        grid-column-start: 1;
+        grid-column-end: 13; 
+        padding-top: 4rem;   
+        }
 }

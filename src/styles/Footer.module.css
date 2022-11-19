@@ -46,7 +46,7 @@
     .container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(8, 1fr);
+        grid-template-rows: repeat(10, 1fr);
         margin: 0rem 1.5rem;
         margin-top: 2rem;
         padding-top: 2rem;
@@ -60,8 +60,8 @@
         font-weight: 200;
     }
     .title{
-        grid-row-start: 2;
-        grid-row-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
         grid-column-start: 1;
         grid-column-end: 3;
         font-family: 'PPNeueMontreal';
@@ -69,8 +69,8 @@
         font-weight: 800;
     }
     .title2{
-        grid-row-start: 4;
-        grid-row-end: 5;
+        grid-row-start: 5;
+        grid-row-end: 6;
         grid-column-start: 1;
         grid-column-end: 5;
         font-family: 'PPNeueMontreal';
@@ -78,7 +78,7 @@
         font-weight: 800;
     }
     .email{
-        grid-row-start: 6;
+        grid-row-start: 7;
         grid-row-end: 8;
         grid-column-start: 1;
         grid-column-end: 8;
