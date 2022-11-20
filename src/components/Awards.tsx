@@ -1,11 +1,12 @@
 import styles from '../styles/Awards.module.css'
-
+import Award from "../components/Award"
 export default function Awards() {
   return (
-    <div data-scroll-section className={styles.container}>
+    <div className={styles.container} data-scroll-section >
         <span className={styles.span}>04/</span>
         <h1 className={styles.title}>Awards and Recognition</h1>
-        <div className={styles.awards_container}>
+        <div className={styles.award_container}>
+          <Award/>
         </div>
         </div>
   )

@@ -1,0 +1,40 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.span{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 13;
+    border-bottom: 1px solid black;
+    padding-top: 2rem;
+}
+.title{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-size: calc(3vmax * 9 / 16);
+    font-family: 'PPNeueMontreal';
+    text-transform: uppercase;
+}
+.platform{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 6;
+    grid-column-end: 9;
+    font-size: calc(3vmax * 9 / 16);
+    font-family: 'PPNeueMontreal';
+    text-transform: uppercase;
+}
+.year{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 12;
+    grid-column-end: 13;
+    font-size: calc(3vmax * 9 / 16);
+    font-family: 'PPNeueMontreal';
+    text-transform: uppercase; 
+}
