@@ -22,7 +22,7 @@ export default function Skills() {
         <div className={styles.description_container}>
         <span className={styles.letters}>(B)</span>
         <h2 className={styles.description1}>Web Design/ Animation/ UX/UI ←</h2>
-        <h2 className={styles.description2}>✷ I design and create user friendly experiences using the latest tools in animation and motion graphics.</h2>
+        <h2 className={styles.description2}>✷ I design and create user friendly experiences using the latest tools in animation and web graphics.</h2>
         </div>
         <div className={styles.span_container2}>
         <span className={styles.border}></span>
