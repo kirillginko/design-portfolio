@@ -14,11 +14,10 @@
     grid-column-end: 2;
     font-size: 2rem;
     font-weight: 200;
-    /* border: 1px solid red; */
 }
 .title{
     grid-row-start: 1;
-    grid-row-end: 10;
+    grid-row-end: 2;
     grid-column-start: 6;
     grid-column-end: 12;
     font-size: calc(12vmax * 9 / 16);
@@ -28,77 +27,170 @@
     line-height: 10rem;
 }
 .genre{
-    grid-row-start: 5;
-    grid-row-end: 6;
-    grid-column-start: 2;
-    grid-column-end: 5;
-    font-size: 2rem; 
-    padding-bottom: 2rem;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 13;
+    font-size: 2rem;
+    padding-top: 4rem; 
+    font-size: calc(5vmax * 9 / 16);
     font-family: 'PPNeueMontreal';
     text-transform: uppercase;
-    border: 1px solid red;
 }
 .img{
     width: 24vw;
-    grid-row-start: 7;
-    grid-row-end: 15;
-    grid-column-start: 2;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    grid-column-start: 1;
     grid-column-end: 5;
+    width: 32vw;
 }
 .img2{
-    width: 25vw;
+    width: 24vw;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    width: 32vw;
+}
+.img3{
+    width: 24vw;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    grid-column-start: 8;
+    grid-column-end: 13;
+    width: 32vw;
+}
+.description{
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end:5;
+    font-size: calc(2vmax * 9 / 16);
+    font-family: 'PPNeueMontreal';
+    text-transform: uppercase;
+    transition: all 0.1s ease-in-out;
+}
+.description:hover {
+    color: rgb(222, 104, 0);
+  }
+  .description2:hover {
+    color: rgb(222, 104, 0);
+  }
+  .description3:hover {
+    color: rgb(222, 104, 0);
+  }
+.description2{
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 6;
+    grid-column-end:7;
+    font-size: calc(2vmax * 9 / 16);
+    font-family: 'PPNeueMontreal';
+    text-transform: uppercase;
+    transition: all 0.1s ease-in-out;
+}
+.description3{
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 8;
+    grid-column-end:13;
+    font-size: calc(2vmax * 9 / 16);
+    font-family: 'PPNeueMontreal';
+    text-transform: uppercase;
+    transition: all 0.1s ease-in-out;
+}
+.genre2{
     grid-row-start: 7;
-    grid-row-end: 15;
-    grid-column-start: 7;
-    grid-column-end: 20;
+    grid-row-end: 8;
+    grid-column-start: 1;
+    grid-column-end:13;
+    /* padding-top: 4rem;  */
+    font-size: calc(5vmax * 9 / 16);
+    font-family: 'PPNeueMontreal';
+    text-transform: uppercase;
+    border: 1px solid red;
 }
 @media (max-width: 900px) {
     .container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(10, 1fr);
+        grid-template-rows: repeat(13, 1fr);
     }
     .span{
         grid-row-start: 1;
-        grid-row-end: 2;
+        grid-row-end: 1;
         grid-column-start: 1;
-        grid-column-end: 2;
+        grid-column-end: 1;
         font-size: 2rem;
         font-weight: 200;
         /* border: 1px solid red; */
     }
     .title{
-        grid-row-start: 3;
-        grid-row-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 3;
         grid-column-start: 1;
         grid-column-end: 2;
-        font-size: calc(15vmax * 9 / 16);
+        font-size: calc(12vmax * 9 / 16);
         line-height: 5rem;
-        border: 1px solid blue;
+        padding-top: 8rem;
     }
     .genre{
-        grid-row-start: 6;
-        grid-row-end: 7;
+        grid-row-start: 2;
+        grid-row-end: 3;
         grid-column-start: 1;
-        grid-column-end: 2;
-        font-size: 2rem; 
-        padding-bottom: 2rem;
+        grid-column-end: 1;
+        font-size: calc(6vmax * 9 / 16);
         font-family: 'PPNeueMontreal';
         text-transform: uppercase;
-        border: 1px solid red;
+        padding-top: 14rem;
     }
     .img{
         width: 90vw;
-        grid-row-start: 5;
-        grid-row-end: 10;
+        grid-row-start: 3;
+        grid-row-end: 4;
         grid-column-start: 1;
         grid-column-end: 1;
     }
     .img2{
         width: 90vw;
-        grid-row-start: 11;
-        grid-row-end: 14;
+        grid-row-start: 5;
+        grid-row-end: 6;
         grid-column-start: 1;
         grid-column-end: 1;
+    }
+    .img3{
+        width: 90vw;
+        grid-row-start: 7;
+        grid-row-end: 8;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+    .description{
+        grid-row-start: 4;
+        grid-row-end: 5;
+        grid-column-start: 1;
+        grid-column-end:1;
+        font-size: calc(5vmax * 9 / 16);
+        font-family: 'PPNeueMontreal';
+        text-transform: uppercase;
+    }
+    .description2{
+        grid-row-start: 6;
+        grid-row-end: 7;
+        grid-column-start: 1;
+        grid-column-end:1;
+        font-size: calc(5vmax * 9 / 16);
+        font-family: 'PPNeueMontreal';
+        text-transform: uppercase;
+    }
+    .description3{
+        grid-row-start: 8;
+        grid-row-end: 9;
+        grid-column-start: 1;
+        grid-column-end:1;
+        font-size: calc(5vmax * 9 / 16);
+        font-family: 'PPNeueMontreal';
+        text-transform: uppercase;
     }
 }

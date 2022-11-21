@@ -39,7 +39,7 @@
     grid-column-start: 1;
     grid-column-end: 8;
     font-family: 'PPNeueMontreal';
-    font-size: 6vw;
+    font-size: calc(12vmax * 9 / 16);
     font-weight: 800;
     text-transform: uppercase;
 }
@@ -66,7 +66,7 @@
         grid-column-start: 1;
         grid-column-end: 3;
         font-family: 'PPNeueMontreal';
-        font-size: 2rem;
+        font-size: calc(6vmax * 9 / 16);
         font-weight: 800;
     }
     .title2{
@@ -75,7 +75,7 @@
         grid-column-start: 1;
         grid-column-end: 5;
         font-family: 'PPNeueMontreal';
-        font-size: 2rem;
+        font-size: calc(6vmax * 9 / 16);
         font-weight: 800;
     }
     .email{
@@ -84,7 +84,7 @@
         grid-column-start: 1;
         grid-column-end: 8;
         font-family: 'PPNeueMontreal';
-        font-size: calc(7vmax * 9 / 16);
+        font-size: calc(6vmax * 9 / 16);
         font-weight: 800;
         text-transform: uppercase;
     }
