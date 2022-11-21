@@ -69,13 +69,14 @@
     text-transform: uppercase;  
 }
 .description2{
-    grid-row-start: 6;
+    grid-row-start: 5;
     grid-row-end: 7;
     grid-column-start: 3;
     grid-column-end: 9;
     font-size: calc(3vmax * 9 / 16);
     font-family: 'PPNeueMontreal';
     text-transform: uppercase;
+    margin-top: 2rem;
 }
 .span_container2{
     display: grid;
@@ -131,23 +132,26 @@
         font-size: calc(5vmax * 9 / 16);
         font-family: 'PPNeueMontreal';
         text-transform: uppercase;
+        margin-top: 2rem; 
     }
     .description1{
         grid-row-start: 1;
         grid-row-end: 4;
         grid-column-start: 3;
-        grid-column-end: 10;
+        grid-column-end: 12;
         font-size: calc(5vmax * 9 / 16);
         font-family: 'PPNeueMontreal';
-        text-transform: uppercase;    
+        text-transform: uppercase;
+        margin-top: 2rem; 
     } 
     .description2{
-        grid-row-start: 5;
+        grid-row-start: 4;
         grid-row-end: 8;
         grid-column-start: 3;
         grid-column-end: 10;
         font-size: calc(3vmax * 9 / 16);
         font-family: 'PPNeueMontreal';
-        text-transform: uppercase;   
+        text-transform: uppercase;
+        margin-top: 0rem;
     } 
 }

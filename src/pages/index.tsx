@@ -23,11 +23,9 @@ const Home: NextPage = () => {
       <Nav/>
       <About/>
       <Skills/>
+      <Projects/>
       <Awards/>
       <Footer/>
-      {/* <Projects/>
-
-      <Footer/> */}
       </div>
   );
 };

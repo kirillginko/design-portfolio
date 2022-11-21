@@ -15,7 +15,7 @@
     grid-row-end: 4;
     grid-column-start: 1;
     grid-column-end: 2;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
 }
 .title{
     grid-row-start: 1;

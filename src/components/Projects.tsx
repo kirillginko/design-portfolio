@@ -4,7 +4,7 @@ export default function Projects() {
   return (
     <div data-scroll-section className={styles.container}>
         <span className={styles.span}>03/</span>
-        <h1 className={styles.title}>Projects</h1>
+        <h1 className={styles.title}>Recent Work</h1>
         <h2 className={styles.genre}>(A1) Web Design/ Ux/UI</h2>
         </div>
   )

@@ -1,7 +1,7 @@
 .container{
     display: grid;
-    grid-template-columns: repeat(21, 1fr);
-    grid-template-rows: repeat(21, 1fr);
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
     margin: 0rem 1.5rem;
     margin-top: 2rem;
     border: 1px solid red;
@@ -18,10 +18,10 @@
 }
 .title{
     grid-row-start: 1;
-    grid-row-end: 5;
-    grid-column-start: 10;
-    grid-column-end: 14;
-    font-size: calc(15vmax * 9 / 16);
+    grid-row-end: 10;
+    grid-column-start: 6;
+    grid-column-end: 12;
+    font-size: calc(12vmax * 9 / 16);
     padding-bottom: 2rem;
     font-family: 'PPNeueMontreal';
     text-transform: uppercase;
@@ -56,7 +56,7 @@
     .container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(15, 1fr);
+        grid-template-rows: repeat(10, 1fr);
     }
     .span{
         grid-row-start: 1;
@@ -68,17 +68,17 @@
         /* border: 1px solid red; */
     }
     .title{
-        grid-row-start: 2;
-        grid-row-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 6;
         grid-column-start: 1;
         grid-column-end: 2;
         font-size: calc(15vmax * 9 / 16);
-        line-height: 1rem;
+        line-height: 5rem;
         border: 1px solid blue;
     }
     .genre{
-        grid-row-start: 3;
-        grid-row-end: 4;
+        grid-row-start: 6;
+        grid-row-end: 7;
         grid-column-start: 1;
         grid-column-end: 2;
         font-size: 2rem; 
