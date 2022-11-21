@@ -1,21 +1,27 @@
 .container{
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    margin: 2rem;
+}
+.span_container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding-bottom: 1rem;
 }
 .span{
-    grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
     grid-column-start: 1;
-    grid-column-end: 13;
+    grid-column-end: 2;
     border-bottom: 1px solid black;
-    padding-top: 2rem;
 }
 .title{
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-end: 4;
     font-size: calc(3vmax * 9 / 16);
     font-family: 'PPNeueMontreal';
     text-transform: uppercase;
@@ -23,8 +29,8 @@
 .platform{
     grid-row-start: 1;
     grid-row-end: 2;
-    grid-column-start: 6;
-    grid-column-end: 9;
+    grid-column-start: 7;
+    grid-column-end: 11;
     font-size: calc(3vmax * 9 / 16);
     font-family: 'PPNeueMontreal';
     text-transform: uppercase;
@@ -32,9 +38,38 @@
 .year{
     grid-row-start: 1;
     grid-row-end: 2;
-    grid-column-start: 12;
-    grid-column-end: 13;
+    grid-column-start: 15;
+    grid-column-end: 15;
     font-size: calc(3vmax * 9 / 16);
     font-family: 'PPNeueMontreal';
     text-transform: uppercase; 
+}
+@media (max-width: 900px) {
+    .title{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        font-size: calc(3vmax * 9 / 16);
+        font-family: 'PPNeueMontreal';
+        text-transform: uppercase;
+    }
+    .platform{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 6;
+        grid-column-end: 12;
+        font-size: calc(3vmax * 9 / 16);
+        font-family: 'PPNeueMontreal';
+        text-transform: uppercase;
+    }
+    .year{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 14;
+        grid-column-end: 15;
+        font-size: calc(3vmax * 9 / 16);
+        font-family: 'PPNeueMontreal';
+        text-transform: uppercase; 
+    }  
 }

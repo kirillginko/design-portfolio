@@ -1,7 +1,7 @@
 .container{
     display: grid;
     grid-template-columns: repeat(14, 1fr);
-    grid-template-rows: repeat(14, 1fr);
+    grid-template-rows: repeat(12, 1fr);
     margin: 0rem 1.5rem;
     margin-top: 2rem;
     padding-top: 2rem;
@@ -21,17 +21,51 @@
     grid-column-start: 7;
     grid-column-end: 14;
     font-size: calc(12vmax * 9 / 16);
-    padding-bottom: 2rem;
     font-family: 'PPNeueMontreal';
     text-transform: uppercase;
     line-height: 10rem;
 }
 .award_container{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 14;
+}
+.award_container2{
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 14;
+}
+.award_container3{
     grid-row-start: 6;
     grid-row-end: 7;
     grid-column-start: 2;
     grid-column-end: 14;
-    border: 1px solid blue;
+}
+.award_container4{
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 2;
+    grid-column-end: 14;
+}
+.award_container5{
+    grid-row-start: 8;
+    grid-row-end: 9;
+    grid-column-start: 2;
+    grid-column-end: 14;
+}
+.award_container6{
+    grid-row-start: 9;
+    grid-row-end: 10;
+    grid-column-start: 2;
+    grid-column-end: 14;
+}
+.award_container7{
+    grid-row-start: 10;
+    grid-row-end: 11;
+    grid-column-start: 2;
+    grid-column-end: 14;
 }
 @media (max-width: 900px){
     .container{
@@ -41,7 +75,7 @@
         margin: 0rem 1.5rem;
         margin-top: 2rem;
         padding-top: 2rem;
-        border: 1px solid blue;
+
     }
     .title{
         grid-row-start: 2;
@@ -53,14 +87,61 @@
         font-family: 'PPNeueMontreal';
         text-transform: uppercase;
         line-height: 5rem;
-        border: 1px solid red;
     }
     .award_container{
         grid-row-start: 4;
         grid-row-end: 5;
         grid-column-start: 1;
         grid-column-end: 14;
-        border: 1px solid blue;
+
+        font-size: calc(4vmax * 9 / 16);
+    }
+    .award_container2{
+        grid-row-start: 5;
+        grid-row-end: 6;
+        grid-column-start: 1;
+        grid-column-end: 14;
+
+        font-size: calc(4vmax * 9 / 16);
+    }
+    .award_container3{
+        grid-row-start: 6;
+        grid-row-end: 7;
+        grid-column-start: 1;
+        grid-column-end: 14;
+
+        font-size: calc(4vmax * 9 / 16);
+    }
+    .award_container4{
+        grid-row-start: 7;
+        grid-row-end: 8;
+        grid-column-start: 1;
+        grid-column-end: 14;
+
+        font-size: calc(4vmax * 9 / 16);
+    }
+    .award_container5{
+        grid-row-start: 8;
+        grid-row-end: 9;
+        grid-column-start: 1;
+        grid-column-end: 14;
+
+        font-size: calc(4vmax * 9 / 16);
+    }
+    .award_container6{
+        grid-row-start: 9;
+        grid-row-end: 10;
+        grid-column-start: 1;
+        grid-column-end: 14;
+
+        font-size: calc(4vmax * 9 / 16);
+    }
+    .award_container7{
+        grid-row-start: 10;
+        grid-row-end: 11;
+        grid-column-start: 1;
+        grid-column-end: 14;
+
         font-size: calc(4vmax * 9 / 16);
     }
 }

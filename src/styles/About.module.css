@@ -156,11 +156,11 @@
     .about_container{
         display: grid;
         grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: repeat(10, 1fr);
+        grid-template-rows: repeat(8, 1fr);
         margin: 0rem 1.5rem; 
     }
     .about_left{
-        font-size: calc(7vmax * 9 / 16);
+        font-size: calc(6vmax * 9 / 16);
         font-family: 'PPNeueMontreal';
         font-weight: 100;
         grid-row-start: 1;
@@ -170,7 +170,7 @@
         padding-top: 4rem;  
     }
     .about_right{
-        font-size: calc(7vmax * 9 / 16);
+        font-size: calc(6vmax * 9 / 16);
         font-family: 'PPNeueMontreal';
         font-weight: 100;
         grid-row-start: 2;
@@ -180,7 +180,7 @@
         padding-top: 4rem;     
     }
     .about_lower_right{
-        font-size: calc(7vmax * 9 / 16);
+        font-size: calc(6vmax * 9 / 16);
         font-family: 'PPNeueMontreal';
         font-weight: 100;
         grid-row-start: 6;

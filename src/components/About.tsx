@@ -24,12 +24,12 @@ export default function About() {
       </div>
     </div>
     <div className={styles.self_container} data-scroll-section>
-      <div className={styles.self_img}>
+      {/* <div className={styles.self_img}>
       <Image
         src={selfImage}
         alt="image of Kirill Ginko"
       />
-      </div>
+      </div> */}
     </div>
     <div className={styles.about_container} data-scroll-section>
     <h2 className={styles.about_left}>A journey of curiosity and exploration.</h2>

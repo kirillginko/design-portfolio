@@ -1,0 +1,153 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    margin: 2rem 1.5rem;
+    border: 1px solid blue;
+    padding-top: 2rem;
+}
+.title{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 7;
+    grid-column-end: 15;
+    font-size: calc(12vmax * 9 / 16);
+    font-family: 'PPNeueMontreal';
+    text-transform: uppercase;
+    line-height: 10rem;
+}
+.span{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-size: 2rem;
+    font-weight: 200;
+    margin-bottom: 4rem;
+}
+.skills_container{
+    grid-row-start: 2;
+    grid-row-end: 8;
+    grid-column-start: 2;
+    grid-column-end: 14;
+}
+.span_container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    /* padding-bottom: 1rem; */
+}
+.border{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border-bottom: 2px solid black;
+
+}
+.description_container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+}
+.letters{
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-size: calc(3vmax * 9 / 16);
+    font-family: 'PPNeueMontreal';
+    text-transform: uppercase;
+}
+.description1{
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 12;
+    font-size: calc(5vmax * 9 / 16);
+    font-family: 'PPNeueMontreal';
+    text-transform: uppercase;  
+}
+.description2{
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 3;
+    grid-column-end: 9;
+    font-size: calc(3vmax * 9 / 16);
+    font-family: 'PPNeueMontreal';
+    text-transform: uppercase;
+}
+.span_container2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding-bottom: 1rem;
+}
+.border{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 15;
+    border-bottom: 2px solid black;
+
+}
+@media (max-width: 900px) {
+    .container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+.span{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    font-size: 2rem;
+    font-weight: 200;
+    margin-bottom: 4rem;
+}
+    .title{
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        font-size: calc(12vmax * 9 / 16);
+        padding-bottom: 2rem;
+        font-family: 'PPNeueMontreal';
+        text-transform: uppercase;
+        line-height: 5rem;
+    }
+    .skills_container{
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 15;
+    } 
+    .letters{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        font-size: calc(5vmax * 9 / 16);
+        font-family: 'PPNeueMontreal';
+        text-transform: uppercase;
+    }
+    .description1{
+        grid-row-start: 1;
+        grid-row-end: 4;
+        grid-column-start: 3;
+        grid-column-end: 10;
+        font-size: calc(5vmax * 9 / 16);
+        font-family: 'PPNeueMontreal';
+        text-transform: uppercase;    
+    } 
+    .description2{
+        grid-row-start: 5;
+        grid-row-end: 8;
+        grid-column-start: 3;
+        grid-column-end: 10;
+        font-size: calc(3vmax * 9 / 16);
+        font-family: 'PPNeueMontreal';
+        text-transform: uppercase;   
+    } 
+}

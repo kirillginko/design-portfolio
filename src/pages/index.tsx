@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { useLocomotiveScroll } from 'react-locomotive-scroll';
 import Nav from "../components/Nav"
 import About from "../components/About"
+import Skills from "../components/Skills"
 import Projects from "../components/Projects"
 import Awards from '../components/Awards';
 import Footer from "../components/Footer"
@@ -19,8 +20,9 @@ const Home: NextPage = () => {
         <meta name="description" content="Kirill Ginko Digital Designer based in NYC" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Nav data-scroll-section/>
+      <Nav/>
       <About/>
+      <Skills/>
       <Awards/>
       <Footer/>
       {/* <Projects/>
