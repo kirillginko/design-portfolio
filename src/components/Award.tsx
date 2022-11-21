@@ -1,5 +1,5 @@
 import styles from "../styles/Award.module.css"
-export default function Award({website, platform, year}) {
+export default function Award({website, platform, year}: {website: string, platform: string, year: string}) {
   return (
     <>
     <div className={styles.container}>
