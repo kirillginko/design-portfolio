@@ -5,7 +5,6 @@
     margin: 0rem 1.5rem;
     margin-top: 2rem;
     padding-top: 2rem;
-    border: 1px solid blue;
 }
 .span{
     grid-row-start: 2;
@@ -41,7 +40,6 @@
     gap: 2rem;
     margin: 0rem 1.5rem;
     padding-top: 4rem;
-    border: 1px solid blue;
 
 }
 .img{
@@ -111,7 +109,6 @@
     gap: 2rem;
     margin: 4rem 1.5rem;
     padding-top: 4rem;
-    border: 1px solid blue;  
   }
   .genre2{
     grid-row-start: 1;
@@ -134,7 +131,13 @@
     grid-row-end: 3;
     grid-column-start: 5;
     grid-column-end: 9;  
-  }   
+  }
+  .img6{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 9;
+    grid-column-end: 13;  
+  }    
 @media (max-width: 900px) {
     .container{
         display: grid;
@@ -230,7 +233,6 @@
         grid-template-columns: repeat(12, 1fr);
         gap: 2rem;
         margin: 4rem 1.5rem;
-        border: 1px solid blue;  
     }
     .genre2{
         grid-row-start: 1;
@@ -240,7 +242,6 @@
         font-size: calc(7vmax * 9 / 16);
         font-family: 'PPNeueMontreal';
         text-transform: uppercase;
-        border: 1px solid red;
       }
       .img4{
         grid-row-start: 3;
@@ -253,5 +254,11 @@
         grid-row-end: 5;
         grid-column-start: 1;
         grid-column-end: 13;
-    }       
+    }
+    .img6{
+        grid-row-start: 5;
+        grid-row-end: 6;
+        grid-column-start: 1;
+        grid-column-end: 13;  
+      }         
 }

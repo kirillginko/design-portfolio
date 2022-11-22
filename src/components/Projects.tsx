@@ -4,8 +4,8 @@ import Project2 from "../images/infinite.png"
 import Project3 from "../images/cmpnd.png"
 import Project4 from "../images/1987.png"
 import Project5 from "../images/made.png"
+import Project6 from "../images/risoprint3.png"
 import styles from '../styles/Projects.module.css'
-import Project from './Project'
 
 export default function Projects() {
   return (
@@ -44,9 +44,12 @@ export default function Projects() {
         <div data-scroll-section className={styles.graphics_container}>
         <h2 className={styles.genre2}>(✷)Graphic Design</h2>
         <div className={styles.img4}>
-        <Image src={Project4}/>
+        <Image src={Project6}/>
         </div>
         <div className={styles.img5}>
+        <Image src={Project4}/>
+        </div>
+        <div className={styles.img6}>
         <Image src={Project5}/>
         </div>
         </div>
