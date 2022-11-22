@@ -33,8 +33,8 @@ export default function About() {
     </div>
     <div className={styles.about_container} data-scroll-section>
     <h2 className={styles.about_left}>A journey of curiosity and exploration.</h2>
-    <h2 className={styles.about_right}>I'm a creative designer and developer with experience in building products and innovative digital experiences. I've helped brands build innovative experiences and create user-friendly design experiences.</h2>
-    <h2 className={styles.about_lower_right}>My multi-disciplinary background brings a diverse set of skills to create successful branding and design identity to companies. I specialize in ux/ui, graphic design, and front-end development.</h2>
+    <h2 className={styles.about_right}>I'm a creative designer and developer with experience in building products and innovative digital experiences. I've helped brands create user-friendly design experiences.</h2>
+    <h2 className={styles.about_lower_right}>My multi-disciplinary background brings a diverse set of skills to create successful branding and design identities to companies. I specialize in ux/ui, graphic design, and front-end development.</h2>
     </div>
         </>
         

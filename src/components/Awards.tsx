@@ -15,15 +15,12 @@ export default function Awards() {
           <Award  website={"Kirill Ginko Portfolio"} platform={"Awwwards Developer Award"} year={"2022"}/>
         </div>
         <div className={styles.award_container4}>
-          <Award  website={"Kirill Ginko Portfolio"} platform={"Awwwards Developer Award"} year={"2022"}/>
-        </div>
-        <div className={styles.award_container5}>
           <Award  website={"Kirill Ginko Portfolio"} platform={"FWA of the Day"} year={"2022"}/>
         </div>
-        <div className={styles.award_container6}>
-          <Award website={"Kirill Ginko Portfolio"} platform={"Godly"} year={"2022"}/>
+        <div className={styles.award_container5}>
+          <Award  website={"Kirill Ginko Portfolio"} platform={"Godly"} year={"2022"}/>
         </div>
-        <div className={styles.award_container7}>
+        <div className={styles.award_container6}>
           <Award website={"Kirill Ginko Portfolio"} platform={"Muzli Portfolio Design Inspiration"} year={"2022"}/>
         </div>
         </div>
