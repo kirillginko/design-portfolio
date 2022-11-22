@@ -106,7 +106,6 @@
     grid-column-end: 1;
     font-size: 2rem;
     font-weight: 200;
-    margin-bottom: 8rem;
 }
     .title{
         grid-row-start: 2;
@@ -117,7 +116,7 @@
         padding-bottom: 2rem;
         font-family: 'PPNeueMontreal';
         text-transform: uppercase;
-        line-height: 5rem;
+        line-height: 3rem;
     }
     .skills_container{
         grid-row-start: 3;

@@ -1,0 +1,147 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.type{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 13;
+    font-size: calc(3vmax * 9 / 16);
+    font-family: 'PPNeueMontreal';
+    text-transform: uppercase;
+    border: 1px solid blue;
+}
+.img{
+    width: calc(50vmax * 9 / 16);
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border: 1px solid blue;  
+}
+.description{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    /* grid-column-start: 1;
+    grid-column-end: 2; */
+    font-size: calc(2vmax * 9 / 16);
+    font-family: 'PPNeueMontreal';
+    text-transform: uppercase;
+    transition: all 0.1s ease-in-out;
+    border: 1px solid red;   
+}
+.img2{
+    width: calc(50vmax * 9 / 16);
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    border: 1px solid blue;  
+}
+.description2{
+    font-size: calc(2vmax * 9 / 16);
+    font-family: 'PPNeueMontreal';
+    text-transform: uppercase;
+    transition: all 0.1s ease-in-out;
+    border: 1px solid red;   
+}
+.img3{
+    width: calc(50vmax * 9 / 16);
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start: 12;
+    grid-column-end: 13;
+    border: 1px solid blue;  
+}
+.description3{
+    font-size: calc(2vmax * 9 / 16);
+    font-family: 'PPNeueMontreal';
+    text-transform: uppercase;
+    transition: all 0.1s ease-in-out;
+    border: 1px solid red;   
+}
+.description:hover {
+    color: rgb(222, 104, 0);
+  }
+  .description2:hover {
+    color: rgb(222, 104, 0);
+  }
+  .description3:hover {
+    color: rgb(222, 104, 0);
+  }
+@media (max-width: 900px) {
+    .container{
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .type{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        font-size: calc(3vmax * 9 / 16);
+        font-family: 'PPNeueMontreal';
+        text-transform: uppercase;
+        border: 1px solid blue;
+    }
+    .img{
+        width: 90vw;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        border: 1px solid blue;  
+    }
+    .description{
+        grid-row-start: 4;
+        grid-row-end: 5;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        font-size: calc(3vmax * 9 / 16);
+        font-family: 'PPNeueMontreal';
+        text-transform: uppercase;
+        transition: all 0.1s ease-in-out;
+        border: 1px solid red;   
+    }
+    .img2{
+        width: 90vw;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        border: 1px solid blue;  
+    }
+    .description2{
+        grid-row-start: 6;
+        grid-row-end: 7;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        font-size: calc(3vmax * 9 / 16);
+        font-family: 'PPNeueMontreal';
+        text-transform: uppercase;
+        transition: all 0.1s ease-in-out;
+        border: 1px solid red;   
+    }
+    .img3{
+        width: 90vw;
+        grid-row-start: 6;
+        grid-row-end: 7;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        border: 1px solid blue;  
+    }
+    .description3{
+        grid-row-start: 7;
+        grid-row-end: 8 ;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        font-size: calc(3vmax * 9 / 16);
+        font-family: 'PPNeueMontreal';
+        text-transform: uppercase;
+        transition: all 0.1s ease-in-out;
+        border: 1px solid red;   
+    }    
+}
