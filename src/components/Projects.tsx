@@ -4,7 +4,7 @@ import Project2 from "../images/infinite.png"
 import Project3 from "../images/cmpnd.png"
 import Project4 from "../images/1987.png"
 import Project5 from "../images/made.png"
-import Project6 from "../images/risoprint3.png"
+import Project6 from "../images/risoprint4.png"
 import styles from '../styles/Projects.module.css'
 
 export default function Projects() {
