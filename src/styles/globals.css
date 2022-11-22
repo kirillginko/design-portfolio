@@ -8,6 +8,7 @@ body {
 
 body {
 background-color: rgb(224,223,220);
+position: fixed;
 }
 
 a {
