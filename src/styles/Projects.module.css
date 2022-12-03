@@ -146,6 +146,7 @@
         margin: 0rem 1.5rem;
         margin-top: 2rem;
         padding-top: 2rem;
+        border: 1px solid red;
     }
     .span{
         grid-row-start: 1;
@@ -177,7 +178,8 @@
         grid-template-rows: repeat(6, 1fr);
         grid-template-columns: repeat(2, 1fr);
         margin: 0rem 1.5rem;
-        padding-top: 2rem; 
+        padding-top: 2rem;
+        border: 1px solid red;
     }
     .img{
         grid-row-start: 1;
@@ -233,6 +235,7 @@
         grid-template-columns: repeat(12, 1fr);
         gap: 2rem;
         margin: 4rem 1.5rem;
+        border: 1px solid red;
     }
     .genre2{
         grid-row-start: 1;
@@ -248,17 +251,20 @@
         grid-row-end: 4;
         grid-column-start: 1;
         grid-column-end: 13;
+        width: 87vw;
     }
     .img5{
         grid-row-start: 4;
         grid-row-end: 5;
         grid-column-start: 1;
         grid-column-end: 13;
+        width: 87vw;
     }
     .img6{
         grid-row-start: 5;
         grid-row-end: 6;
         grid-column-start: 1;
         grid-column-end: 13;  
+        width: 87vw;
       }         
 }
